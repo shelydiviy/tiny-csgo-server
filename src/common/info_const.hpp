@@ -37,7 +37,7 @@ _DECL_CONST SERVER_VAC_STATES = 1;             // VAC защита включе�
 _DECL_CONST SERVER_TAG = "pure, vac, tiny-cs16-server"; // Теги сервера
 _DECL_CONST SERVER_DCFRIENDSREQD = 0;          // Требуется ли дружба в Steam для входа (0 - нет)
 _DECL_CONST SERVER_VALVE_OFFICIAL = 0;         // Является ли сервер официальным Valve (0 - нет)
-_DECL_CONST SERVER_REGION = SERVER_REGION_ASIA;// Регион сервера
+_DECL_CONST SERVER_REGION = SERVER_REGION_EU;// Регион сервера
 _DECL_CONST SERVER_PROTOCOL = 48;              // Протокол для CS 1.6
 
 _DECL_CONST SERVER_CHALLENGE = 0xdeadbeef;
