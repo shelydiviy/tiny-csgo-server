@@ -21,24 +21,24 @@ _DECL_CONST SERVER_REGION_AUS = "5";
 _DECL_CONST SERVER_REGION_ME = "6";
 _DECL_CONST SERVER_REGION_AFC = "7";
 
-//Server information
-_DECL_CONST SERVER_NAME = "Tiny csgo server";
-_DECL_CONST SERVER_MAP = "de_tinycsgomap";
-_DECL_CONST SERVER_GAME_FOLDER = "csgo";
-_DECL_CONST SERVER_DESCRIPTION = "Counter-Strike: Global Offensive";
-_DECL_CONST SERVER_APPID = 730;
-_DECL_CONST SERVER_NUM_CLIENTS = 10;
-_DECL_CONST SERVER_MAX_CLIENTS = 12;
-_DECL_CONST SERVER_NUM_FAKE_CLIENTS = 0;
-_DECL_CONST SERVER_TYPE = 'd';
-_DECL_CONST SERVER_OS = 'w';
-_DECL_CONST SERVER_PASSWD_NEEDED = 0;
-_DECL_CONST SERVER_VAC_STATES = 1;
-_DECL_CONST SERVER_TAG = "pure, vac, tiny-csgo-server";
-_DECL_CONST SERVER_DCFRIENDSREQD = 0;
-_DECL_CONST SERVER_VALVE_OFFICIAL = 0;
-_DECL_CONST SERVER_REGION = SERVER_REGION_ASIA;
-_DECL_CONST SERVER_PROTOCOL = 17;
+// Server information for Counter-Strike 1.6 emulation
+_DECL_CONST SERVER_NAME = "CS 1.6 Server"; // Название сервера
+_DECL_CONST SERVER_MAP = "de_dust2";           // Карта для CS 1.6 (например, de_dust2)
+_DECL_CONST SERVER_GAME_FOLDER = "cstrike";    // Папка с игрой для CS 1.6
+_DECL_CONST SERVER_DESCRIPTION = "Counter-Strike"; // Описание сервера
+_DECL_CONST SERVER_APPID = 10;                 // AppID для CS 1.6
+_DECL_CONST SERVER_NUM_CLIENTS = 10;           // Текущее количество игроков
+_DECL_CONST SERVER_MAX_CLIENTS = 12;           // Максимальное количество игроков
+_DECL_CONST SERVER_NUM_FAKE_CLIENTS = 0;       // Количество бот-игроков
+_DECL_CONST SERVER_TYPE = 'd';                 // Тип сервера: 'd' для выделенного сервера
+_DECL_CONST SERVER_OS = 'w';                   // Операционная система: 'w' для Windows
+_DECL_CONST SERVER_PASSWD_NEEDED = 0;          // Требуется ли пароль (0 - нет, 1 - да)
+_DECL_CONST SERVER_VAC_STATES = 1;             // VAC защита включена (1 - включена, 0 - выключена)
+_DECL_CONST SERVER_TAG = "pure, vac, tiny-cs16-server"; // Теги сервера
+_DECL_CONST SERVER_DCFRIENDSREQD = 0;          // Требуется ли дружба в Steam для входа (0 - нет)
+_DECL_CONST SERVER_VALVE_OFFICIAL = 0;         // Является ли сервер официальным Valve (0 - нет)
+_DECL_CONST SERVER_REGION = SERVER_REGION_ASIA;// Регион сервера
+_DECL_CONST SERVER_PROTOCOL = 48;              // Протокол для CS 1.6
 
 _DECL_CONST SERVER_CHALLENGE = 0xdeadbeef;
 
